@@ -1,2 +1,3 @@
-# inkstone-changelog
-Changelog for Inkstone home page
+# Inkstone Home Page Changelog
+
+Changelog for [Inkstone home page](https://app.inkstone.pro).

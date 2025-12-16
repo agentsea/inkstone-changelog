@@ -1,0 +1,174 @@
+{
+    "releases": [
+        {
+            "version": "0.0.10",
+            "build": 110,
+            "date": "2025-12-03",
+            "headline": "Alpha Release & Documentation",
+            "features": [
+                {
+                    "title": "Public Documentation",
+                    "description": "New end-user documentation site with video introduction. Learn Inkstone with comprehensive guides and tutorials.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Document Pagination",
+                    "description": "Load More button for projects with many documents. Better performance when browsing large projects.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Auto-Scroll Improvements",
+                    "description": "Message list auto-scrolls to new content. Doc Explorer scrolls to active project on load.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Editor Agent Fixes",
+                    "description": "Fixed alias maps, text deletion, markdown spacing, and document renaming via assistant.",
+                    "category": "fix"
+                },
+                {
+                    "title": "Proofreading & Fact-Check Polish",
+                    "description": "Improved suggestion loading when switching docs. Better highlighting and more reliable results.",
+                    "category": "agent"
+                }
+            ]
+        },
+        {
+            "version": "0.0.9",
+            "build": 109,
+            "date": "2025-12-01",
+            "headline": "AI Thread Management & Research Workflow",
+            "features": [
+                {
+                    "title": "Open in New Thread",
+                    "description": "Deep Research and Web Search now open in dedicated threads by default. Keeps your conversations organized.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Improved Thread Tabs",
+                    "description": "New tabs open to the right consistently. Closing a tab keeps the thread available in your project.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Clearer Thread Names",
+                    "description": "Thread titles now show your actual query instead of system instructions. Easier to find past conversations.",
+                    "category": "fix"
+                }
+            ]
+        },
+        {
+            "version": "0.0.8",
+            "build": 108,
+            "date": "2025-11-27",
+            "headline": "Editor Refinements & Organization",
+            "features": [
+                {
+                    "title": "Bulk Archive",
+                    "description": "Select multiple documents and archive them at once. Keep your workspace tidy without the tedium.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Color Picker in Toolbar",
+                    "description": "New color picker in the editor toolbar for text and highlight colors. Pick any color with the eyedropper tool.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Dynamic Token Limits",
+                    "description": "AI agents now intelligently adjust output token limits based on task complexity for better results.",
+                    "category": "agent"
+                }
+            ]
+        },
+        {
+            "version": "0.0.7",
+            "build": 107,
+            "date": "2025-11-20",
+            "headline": "CSS Grid Layout & Agent Improvements",
+            "features": [
+                {
+                    "title": "New Panel Layout",
+                    "description": "Rebuilt the entire app layout using CSS Grid. Panels now resize smoothly and remember your preferences.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Proofreading Agent Fixes",
+                    "description": "Improved accuracy and speed of the proofreading agent. Better handling of complex sentences and technical writing.",
+                    "category": "agent"
+                },
+                {
+                    "title": "Editor Performance",
+                    "description": "Significant performance optimizations for large documents. Smoother scrolling and faster typing response.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
+            "version": "0.0.6",
+            "build": 106,
+            "date": "2025-11-10",
+            "headline": "Overlord Orchestrator & UX Polish",
+            "features": [
+                {
+                    "title": "Overlord Agent",
+                    "description": "New meta-orchestrator that intelligently routes your requests to the right specialized agent. Just describe what you need.",
+                    "category": "agent"
+                },
+                {
+                    "title": "Independent Scroll Panels",
+                    "description": "Document panel, AI assistant, and sidebar now scroll independently. No more fighting with nested scrollbars.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Keyboard Shortcuts",
+                    "description": "New keyboard shortcuts for common actions. Press ? to see the full list.",
+                    "category": "feature"
+                }
+            ]
+        },
+        {
+            "version": "0.0.5",
+            "build": 105,
+            "date": "2025-10-28",
+            "headline": "Research & Fact-Checking",
+            "features": [
+                {
+                    "title": "Deep Research Agent",
+                    "description": "Comprehensive research on any topic with hierarchical exploration. Get cited sources and structured findings.",
+                    "category": "agent"
+                },
+                {
+                    "title": "Fact-Check Agent",
+                    "description": "Automatically extract claims from your document and verify them against reliable sources.",
+                    "category": "agent"
+                },
+                {
+                    "title": "Web Search Integration",
+                    "description": "Quick web searches powered by Tavily. Get real-time information without leaving your document.",
+                    "category": "feature"
+                }
+            ]
+        }
+    ],
+    "alphaStatus": {
+        "working": [
+            "Rich text editing",
+            "AI Assistant (Deep Research, Web Search, Proofreading, Fact Checking)",
+            "Import / Export",
+            "Light mode",
+            "Move documents between projects",
+            "Restore from archive"
+        ],
+        "notWorking": [
+            "Sort by latest"
+        ],
+        "notWorkingNote": "",
+        "comingSoon": [
+            "Model selection for Assistant",
+            "Agent memory",
+            "Inter-thread memory",
+            "Nanobanana Image Generation"
+        ],
+        "comingSoonNote": "...and more!",
+        "modelInfo": "Currently using Claude Sonnet 4 as the main agent, with Gemini 2.5 Flash & GPT-4.1 for backend tasks."
+    }
+}
