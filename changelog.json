@@ -1,6 +1,63 @@
 {
     "releases": [
         {
+            "version": "0.0.22",
+            "build": 122,
+            "date": "2025-12-16",
+            "headline": "Import & Export; User Quotas",
+            "features": [
+                {
+                    "title": "Import & Export",
+                    "description": "Import from DOCX, MD, and RTF files. Export to DOCX, PDF, MD, and RTF files.",
+                    "category": "feature"
+                },
+                {
+                    "title": "User Quotas",
+                    "description": "Each user has a quota of 500 AI requests for the duration of Alpha.",
+                    "category": "feature"
+                }
+            ]
+        },
+        {
+            "version": "0.0.21",
+            "build": 121,
+            "date": "2025-12-12",
+            "headline": "Stability & Performance Improvements",
+            "features": [
+                {
+                    "title": "Stability & Performance Improvements",
+                    "description": "Improved stability and performance of the AI agents.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
+            "version": "0.0.20",
+            "build": 120,
+            "date": "2025-12-11",
+            "headline": "Light Mode",
+            "features": [
+                {
+                    "title": "Light Mode",
+                    "description": "Added light mode to the app.",
+                    "category": "feature"
+                }
+            ]
+        },
+        {
+            "version": "0.0.19",
+            "build": 119,
+            "date": "2025-12-10",
+            "headline": "Stability & Performance Improvements",
+            "features": [
+                {
+                    "title": "Stability & Performance Improvements",
+                    "description": "Improved stability and performance of the app.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
             "version": "0.0.10",
             "build": 110,
             "date": "2025-12-03",
