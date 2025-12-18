@@ -1,6 +1,29 @@
 {
     "releases": [
         {
+            "version": "0.0.23",
+            "build": 123,
+            "date": "2025-12-18",
+            "headline": "Tables; Streaming",
+            "features": [
+                {
+                    "title": "Tables support",
+                    "description": "Tables are added to teh editor and supported across the application.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Live streaming",
+                    "description": "LLM responses are now streamed live.",
+                    "category": "improvement"
+                },
+                {
+                    "title": "Sort by latest",
+                    "description": "Sorting by latest now works correctly.",
+                    "category": "fix"
+                },
+            ]
+        },
+        {
             "version": "0.0.22",
             "build": 122,
             "date": "2025-12-16",
@@ -216,7 +239,6 @@
             "Restore from archive"
         ],
         "notWorking": [
-            "Sort by latest"
         ],
         "notWorkingNote": "",
         "comingSoon": [
