@@ -20,7 +20,7 @@
                     "title": "Sort by latest",
                     "description": "Sorting by latest now works correctly.",
                     "category": "fix"
-                },
+                }
             ]
         },
         {
