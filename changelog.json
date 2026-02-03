@@ -1,6 +1,23 @@
 {
     "releases": [
         {
+            "version": "1.0.0",
+            "date": "2026-02-03",
+            "headline": "Open Beta Release",
+            "features": [
+                {
+                    "title": "Billing",
+                    "description": "Billing integration is implemented and turned on for all users.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Documentation",
+                    "description": "The documentation is updated and improved with video tutorials.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
             "version": "0.28.0",
             "date": "2026-01-27",
             "headline": "Improved Agents",
