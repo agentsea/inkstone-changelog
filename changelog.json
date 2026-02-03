@@ -1,39 +1,24 @@
 {
     "releases": [
         {
-            "version": "0.0.28",
-            "build": 138,
+            "version": "0.28.0",
             "date": "2026-01-27",
-            "headline": "Agents",
+            "headline": "Improved Agents",
             "features": [
                 {
                     "title": "Proofreading",
-                    "description": "Proofreading becomes a native Assistant's tool.",
+                    "description": "Proofreading is changed to be a native Assistant's tool.",
                     "category": "improvement"
                 },
                 {
                     "title": "Fact-checking",
-                    "description": "Fact-checking becomes a native Assistant's tool.",
+                    "description": "Fact-checking is changed to be a native Assistant's tool.",
                     "category": "improvement"
                 }
             ]
         },
         {
-            "version": "0.0.27",
-            "build": 137,
-            "date": "2026-01-10",
-            "headline": "Stability & Performance Improvements",
-            "features": [
-                {
-                    "title": "Stability & Performance Improvements",
-                    "description": "Improved stability and performance of the app.",
-                    "category": "improvement"
-                }
-            ]
-        },
-        {
-            "version": "0.0.23",
-            "build": 123,
+            "version": "0.25.0",
             "date": "2025-12-18",
             "headline": "Tables; Streaming",
             "features": [
@@ -55,8 +40,7 @@
             ]
         },
         {
-            "version": "0.0.22",
-            "build": 122,
+            "version": "0.22.0",
             "date": "2025-12-16",
             "headline": "Import & Export; User Quotas",
             "features": [
@@ -73,21 +57,7 @@
             ]
         },
         {
-            "version": "0.0.21",
-            "build": 121,
-            "date": "2025-12-12",
-            "headline": "Stability & Performance Improvements",
-            "features": [
-                {
-                    "title": "Stability & Performance Improvements",
-                    "description": "Improved stability and performance of the AI agents.",
-                    "category": "improvement"
-                }
-            ]
-        },
-        {
-            "version": "0.0.20",
-            "build": 120,
+            "version": "0.20.0",
             "date": "2025-12-11",
             "headline": "Light Mode",
             "features": [
@@ -99,21 +69,7 @@
             ]
         },
         {
-            "version": "0.0.19",
-            "build": 119,
-            "date": "2025-12-10",
-            "headline": "Stability & Performance Improvements",
-            "features": [
-                {
-                    "title": "Stability & Performance Improvements",
-                    "description": "Improved stability and performance of the app.",
-                    "category": "improvement"
-                }
-            ]
-        },
-        {
-            "version": "0.0.10",
-            "build": 110,
+            "version": "0.15.0",
             "date": "2025-12-03",
             "headline": "Alpha Release & Documentation",
             "features": [
@@ -145,8 +101,7 @@
             ]
         },
         {
-            "version": "0.0.9",
-            "build": 109,
+            "version": "0.11.0",
             "date": "2025-12-01",
             "headline": "AI Thread Management & Research Workflow",
             "features": [
@@ -168,8 +123,7 @@
             ]
         },
         {
-            "version": "0.0.8",
-            "build": 108,
+            "version": "0.10.0",
             "date": "2025-11-27",
             "headline": "Editor Refinements & Organization",
             "features": [
@@ -191,8 +145,7 @@
             ]
         },
         {
-            "version": "0.0.7",
-            "build": 107,
+            "version": "0.7.0",
             "date": "2025-11-20",
             "headline": "CSS Grid Layout & Agent Improvements",
             "features": [
@@ -214,8 +167,7 @@
             ]
         },
         {
-            "version": "0.0.6",
-            "build": 106,
+            "version": "0.6.0",
             "date": "2025-11-10",
             "headline": "Overlord Orchestrator & UX Polish",
             "features": [
@@ -237,8 +189,7 @@
             ]
         },
         {
-            "version": "0.0.5",
-            "build": 105,
+            "version": "0.5.0",
             "date": "2025-10-28",
             "headline": "Research & Fact-Checking",
             "features": [
@@ -259,27 +210,5 @@
                 }
             ]
         }
-    ],
-    "alphaStatus": {
-        "working": [
-            "Rich text editing",
-            "AI Assistant (Deep Research, Web Search, Proofreading, Fact Checking)",
-            "Import / Export",
-            "Light mode",
-            "Move documents between projects",
-            "Restore from archive"
-        ],
-        "notWorking": [
-            "Proofread/fact-check/edit selected text"
-        ],
-        "notWorkingNote": "",
-        "comingSoon": [
-            "Model selection for Assistant",
-            "Agent memory",
-            "Inter-thread memory",
-            "Nanobanana Image Generation"
-        ],
-        "comingSoonNote": "...and more!",
-        "modelInfo": "Currently using Claude Sonnet 4 as the main agent, with Gemini 2.5 Flash & GPT-4.1 for backend tasks."
-    }
+    ]
 }
