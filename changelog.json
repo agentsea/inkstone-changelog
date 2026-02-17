@@ -1,6 +1,52 @@
 {
     "releases": [
         {
+            "version": "1.3.0",
+            "date": "2026-02-17",
+            "headline": "Mobile UI Alpha",
+            "features": [
+                {
+                    "title": "Mobile UI Alpha",
+                    "description": "Inkstone now has a dedicated mobile UI! Keep working on your documents and talking to Jeannie (official name of our AI Assistant) on the go.",
+                    "category": "feature"
+                },
+                {
+                    "title": "'@' for documents and document search",
+                    "description": "Add any document to Jeannie's context by '@'-referencing it or ask Jeannie to find 'that memo we wrote about new policy' or 'the draft of travel blog post'.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
+            "version": "1.2.0",
+            "date": "2026-02-17",
+            "headline": "Product tour (On-boarding)",
+            "features": [
+                {
+                    "title": "Product tour (On-boarding)",
+                    "description": "We added the product tour to showcase the main features and use cases in Inkstone.",
+                    "category": "feature"
+                }
+            ]
+        },
+        {
+            "version": "1.1.0",
+            "date": "2026-02-12",
+            "headline": "Support GPT-5.2 as an Assistant model",
+            "features": [
+                {
+                    "title": "GPT-5.2 Support",
+                    "description": "The users can now choose between Claude Sonnet 4.5 and GCP-5.2 in Assistant.",
+                    "category": "feature"
+                },
+                {
+                    "title": "Home page",
+                    "description": "The home page is replaced by the splash screen; the most recent document is loaded.",
+                    "category": "improvement"
+                }
+            ]
+        },
+        {
             "version": "1.0.0",
             "date": "2026-02-03",
             "headline": "Open Beta Release",
