@@ -13,7 +13,7 @@
                 {
                     "title": "'@' for documents and document search",
                     "description": "Add any document to Jeannie's context by '@'-referencing it or ask Jeannie to find 'that memo we wrote about new policy' or 'the draft of travel blog post'.",
-                    "category": "improvement"
+                    "category": "feature"
                 }
             ]
         },
